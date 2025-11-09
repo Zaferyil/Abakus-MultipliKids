@@ -381,7 +381,7 @@ const AbakusMathApp = () => {
             </div>
 
             <p className="text-sm md:text-xl text-white mt-4 md:mt-6 font-semibold tracking-wide animate-[fadeIn_1.2s_ease-in] drop-shadow-lg">
-              Çarpma işlemini öğrenmenin geleceği
+              Die Zukunft des Lernens der Multiplikation
             </p>
           </div>
 
@@ -398,7 +398,7 @@ const AbakusMathApp = () => {
             }}></div>
             <div className="relative bg-white/20 backdrop-blur-sm border-2 border-white/50 text-2xl md:text-4xl font-black px-12 py-5 md:px-20 md:py-8 m-0.5 transition-all duration-300 hover:bg-white/30">
               <span className="relative z-10 text-white drop-shadow-lg">
-                BAŞLA
+                START
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-white/0 via-white/40 to-white/0 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
             </div>
@@ -573,7 +573,7 @@ const AbakusMathApp = () => {
             ></div>
           </div>
           <div className="text-center mt-2 text-sm md:text-2xl font-bold text-white">
-            Soru {currentQuestion + 1} / 10
+            Frage {currentQuestion + 1} / 10
           </div>
         </div>
 
@@ -622,7 +622,7 @@ const AbakusMathApp = () => {
         <div className="absolute bottom-4 left-0 right-0 text-center md:relative md:bottom-auto">
           <div className="inline-block bg-yellow-400 rounded-full px-4 py-2 md:px-8 md:py-4 shadow-lg">
             <span className="text-base md:text-2xl lg:text-3xl font-bold text-gray-800">
-              ⭐ Doğru Cevaplar: {score}/{currentQuestion + (showFeedback ? 1 : 0)}
+              ⭐ Richtige Antworten: {score}/{currentQuestion + (showFeedback ? 1 : 0)}
             </span>
           </div>
         </div>
@@ -657,10 +657,10 @@ const AbakusMathApp = () => {
         )}
 
         <div className="bg-white rounded-2xl md:rounded-3xl p-8 md:p-16 shadow-2xl max-w-2xl w-full text-center animate-[scaleIn_0.8s_ease-out] relative z-10">
-          <h2 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 md:mb-8 animate-[slideDown_0.5s_ease-out]">Harika!</h2>
+          <h2 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 md:mb-8 animate-[slideDown_0.5s_ease-out]">Großartig!</h2>
 
           <div className="text-3xl md:text-5xl font-bold text-gray-700 mb-6 md:mb-8 animate-[fadeIn_1s_ease-in]">
-            {score} / 10 Doğru
+            {score} / 10 Richtig
           </div>
 
           <div className="flex justify-center gap-2 md:gap-4 mb-8 md:mb-12">
@@ -682,7 +682,7 @@ const AbakusMathApp = () => {
               }}
               className="bg-gradient-to-b from-blue-400 to-blue-600 text-white text-xl md:text-3xl font-bold px-8 py-4 md:px-12 md:py-6 rounded-xl md:rounded-2xl shadow-lg hover:scale-105 transition-transform"
             >
-              Levellere Dön
+              Zurück zu den Levels
             </button>
 
             {currentStage < 12 && (
@@ -693,7 +693,7 @@ const AbakusMathApp = () => {
                 }}
                 className="bg-gradient-to-b from-green-400 to-green-600 text-white text-xl md:text-3xl font-bold px-8 py-4 md:px-12 md:py-6 rounded-xl md:rounded-2xl shadow-lg hover:scale-105 transition-transform"
               >
-                Sonraki Stage
+                Nächste Stage
               </button>
             )}
           </div>
